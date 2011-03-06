@@ -10,9 +10,9 @@
         <title>
             Nathalie Le Thiec - costumière et styliste - {{ page.title }}
         </title>
-        <script type="text/javascript" src="/media/system/js/mootools.js" />
-        <script type="text/javascript" src="/media/system/js/caption.js" />
-        <script type="text/javascript" src="/modules/mod_rokslideshow/tmpl/rokslideshow.js" />
+        <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+        <script type="text/javascript" src="/media/system/js/caption.js"></script>
+        <script type="text/javascript" src="/modules/mod_rokslideshow/tmpl/rokslideshow.js"></script>
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/rokmoomenu.css" />
         <link rel="stylesheet" type="text/css" href="/templates/system/css/system.css" />
@@ -35,10 +35,10 @@
         tempus="day"
         //]]>
         </script>
-        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/roktempus.js" />
-        <script type="text/javascript" src="/templates/rt_dimensions_j15/rokzoom/rokzoom.js" />
-        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/rokmoomenu.js" />
-        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/mootools.bgiframe.js" />
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/roktempus.js"></script>
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/rokzoom/rokzoom.js"></script>
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/rokmoomenu.js"></script>
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/mootools.bgiframe.js"></script>
         <script type="text/javascript">
 //<![CDATA[
         window.addEvent('domready', function() {
@@ -74,38 +74,35 @@
         });
         
         window.addEvent("load", function() {
-            alert("test");
-            var minutes = 1000*60;
-            var hours   = minutes*60;
-            var days    = hours*24;
-            var years   = days*365;
-            var d       = new Date();
-            var t       = d.getTime();
-            var h       = Math.round((t % days / hours));
-            if (h < 6) {
-                document.getElementsByTagName("body")[0].id = "dusk";
-            }
-            else if (h < 18) {
-                document.getElementsByTagName("body")[0].id = "day";
-            }
-            else if (h < 22) {
-                document.getElementsByTagName("body")[0].id = "dawn";
-            }
-            else {
+            var d = new Date();
+            var h = d.getHours();
+            if (h <= 5) {
                 document.getElementsByTagName("body")[0].id = "night";
             }
-            
+            if (h <= 8) {
+                document.getElementsByTagName("body")[0].id = "dusk";
+            }
+            if (h <= 18) {
+                document.getElementsByTagName("body")[0].id = "day";
+            }
+            if (h <= 22) {
+                document.getElementsByTagName("body")[0].id = "dawn";
+            }
+            if (h > 22) {
+                document.getElementsByTagName("body")[0].id = "night";
+            }
+
             var links = document.getElementsByTagName('a');
 
-            var regex = new RegExp('^' window.location.protocol + '//' + window.location.hostname);
+            var regex = new RegExp('^' + window.location.protocol + '//' + window.location.hostname);
 
             for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-alert(links[i].href);
-               if ( ! links[i].href.match(regex)) {
-                   links[i].setAttribute('target', '_blank');
-               } 
+                if ( ! links[i].href.match(regex)) {
+                    links[i].setAttribute('target', '_blank');
+                } 
 
-            }        });
+            }        
+        });
         //]]>
         </script>
     </head>

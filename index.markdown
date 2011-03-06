@@ -34,7 +34,8 @@ window.addEvent('load', function() {
 });
 </script>
 
-# Bienvenue
+Bienvenue
+=========
 Ce site est en cours d'aménagement, de nouvelles rubriques seront ajoutées très bientôt.
 
  * [Me connaître](/me-connaitre.html)
