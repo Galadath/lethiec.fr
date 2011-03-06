@@ -34,50 +34,10 @@ window.addEvent('load', function() {
 });
 </script>
 
-Bienvenue
-=========
-<td valign="top">
-    <div>
-        <table class="contentpaneopen">
-            <tbody>
-                <tr>
-                    <td valign="top" colspan="2">
-                        <p>
-                            Ce site est en cours d'aménagement, de nouvelles rubriques seront ajoutées très bientôt.
-                        </p>
-                        <p>
-                            &nbsp;
-                        </p>
-                        <h1>
-                            <a href="/me-connaitre.html"><span style="color: #666666;"><strong>Me connaître</strong></span></a>
-                        </h1>
-                        <p>
-                            <span style="color: #666666;"><strong><span style="color: #333333;"><span style="font-weight: normal;"><br></span></span></strong></span>
-                        </p>
-                        <h1>
-                            <a href="/ecole/projets.html"><span style="color: #666666;"><strong>Projets d'école</strong></span></a>
-                        </h1>
-                        <p>
-                            <span style="color: #666666;"><strong><br></strong></span>
-                        </p>
-                        <h1>
-                            <a href="/costumes/arthus-et-la-foret-magique.html"><span style="color: #666666;"><strong>Artus et la forêt magique</strong></span></a>
-                        </h1>
-                        <p>
-                            <span style="color: #666666;"><strong><br></strong></span>
-                        </p>
-                        <h1>
-                            <a href="/ecole/dedanse.html" style="color: #1b57b1; text-decoration: none; font-weight: normal;"><span style="color: #666666;"><strong>Dédanse</strong></span></a>
-                        </h1>
-                        <p>
-                            &nbsp;
-                        </p>
-                        <h1>
-                            <strong><a href="/vetements/robes-de-soiree.html"><span style="color: #666666;"><strong>Robes de soirée</strong></span></a></strong>
-                        </h1>
-                    </td>
-                </tr>
-            </tbody>
-        </table><span class="article_separator">&nbsp;</span>
-    </div>
-</td>
+Ce site est en cours d'aménagement, de nouvelles rubriques seront ajoutées très bientôt.
+
+# [Me connaître](/me-connaitre.html)
+# [Projets d'école](/ecole/projets.html)
+# [Arthus et la forêt magique](/costumes/arthus-et-la-foret-magique.html)
+# [Dédanse](/ecole/dedanse.html)
+# [Robes de soirée](/vetements/robes-de-soiree.html)
