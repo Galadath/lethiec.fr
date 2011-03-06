@@ -34,10 +34,11 @@ window.addEvent('load', function() {
 });
 </script>
 
+# Bienvenue
 Ce site est en cours d'aménagement, de nouvelles rubriques seront ajoutées très bientôt.
 
-# [Me connaître](/me-connaitre.html)
-# [Projets d'école](/ecole/projets.html)
-# [Arthus et la forêt magique](/costumes/arthus-et-la-foret-magique.html)
-# [Dédanse](/ecole/dedanse.html)
-# [Robes de soirée](/vetements/robes-de-soiree.html)
+ * [Me connaître](/me-connaitre.html)
+ * [Projets d'école](/ecole/projets.html)
+ * [Arthus et la forêt magique](/costumes/arthus-et-la-foret-magique.html)
+ * [Dédanse](/ecole/dedanse.html)
+ * [Robes de soirée](/vetements/robes-de-soiree.html)

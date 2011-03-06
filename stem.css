@@ -1,0 +1,31 @@
+#dusk  #stem h1 ,
+#day   #stem h1 ,
+#dawn  #stem h1 ,
+#night #stem h1 {
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #75A1C5;
+    background-image: url(/templates/rt_dimensions_j15/images/content-icon.png);
+    background-origin: padding-box;
+    border-bottom-color: #75A1C5;
+    border-collapse: separate;
+    border-left-color: #75A1C5;
+    border-right-color: #75A1C5;
+    border-top-color: #75A1C5;
+    color: #75A1C5;
+    font-family: 'Century Gothic', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 8px;
+    padding-left: 28px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
