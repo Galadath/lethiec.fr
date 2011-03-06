@@ -10,7 +10,7 @@
         <li><a href="/ecole/dedanse.html">Dédanse</a></li>
     </ul></li>
     <li><a>Costumes et spectacles</a><ul>
-        <li><a href="/costumes/arthus-et-la-foret-magique.html">Arthus et la forêt magique</a></li>
+        <li><a href="/costumes/artus-et-la-foret-magique.html">Artus et la forêt magique</a></li>
     </ul></li>
     <!-- <li><a href="/vetement-et-accessoires.html">Vêtements et accessoires</a><ul> -->
     <li><a>Vêtements et accessoires</a><ul>

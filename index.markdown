@@ -39,6 +39,6 @@ Ce site est en cours d'aménagement, de nouvelles rubriques seront ajoutées tr�
 
  * [Me connaître](/me-connaitre.html)
  * [Projets d'école](/ecole/projets.html)
- * [Arthus et la forêt magique](/costumes/arthus-et-la-foret-magique.html)
+ * [Artus et la forêt magique](/costumes/artus-et-la-foret-magique.html)
  * [Dédanse](/ecole/dedanse.html)
  * [Robes de soirée](/vetements/robes-de-soiree.html)

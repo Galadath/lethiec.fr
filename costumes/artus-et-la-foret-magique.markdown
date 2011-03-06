@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Arthus et la forêt magique
+title: Artus et la forêt magique
 column: 2
 ---
 <script type="text/javascript">
