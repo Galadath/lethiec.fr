@@ -2,7 +2,7 @@
     <li><a href="/">Accueil</a></li>
     <li><a href="/me-connaitre.html">Me connaître</a><ul>
         <li><a href="/me-connaitre.html">Voir mon CV</a></li>
-        <li><a href="/cv.pdf">Télécharger mon CV</a></li>
+        <li><a href="/cv_nathalie_le_thiec.pdf">Télécharger mon CV</a></li>
     </ul></li>
     <li><a href="/ecole/projets.html">Projets d'école</a><ul>
         <li><a href="/ecole/la-petite-sirene.html">La petite sirène</a></li>
