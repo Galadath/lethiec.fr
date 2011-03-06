@@ -14,7 +14,6 @@
         <script type="text/javascript" src="/media/system/js/caption.js" />
         <script type="text/javascript" src="/modules/mod_rokslideshow/tmpl/rokslideshow.js" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
-<!--
         <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/rokmoomenu.css" />
         <link rel="stylesheet" type="text/css" href="/templates/system/css/system.css" />
         <link rel="stylesheet" type="text/css" href="/templates/system/css/general.css" />
@@ -22,8 +21,7 @@
         <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/style2.css" />
         <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/rokzoom/rokzoom.css" />
         <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/rokslidestrip.css" />
--->
-    <link rel="stylesheet" type="text/css" href="/stem.css" />
+        <link rel="stylesheet" type="text/css" href="/stem.css" />
         <style type="text/css">
 /*<![CDATA[*/
         div.wrapper { margin: 0 auto; width: 990px;padding:0;}
@@ -74,11 +72,33 @@
                 }
             });
         });
+        
+        window.addEvent("load", function() {
+            var minutes = 1000*60;
+            var hours   = minutes*60;
+            var days    = hours*24;
+            var years   = days*365;
+            var d       = new Date();
+            var t       = d.getTime();
+            var h       = Math.round((t % days / hours));
+            if (h < 6) {
+                document.getElementsByTagName("body")[0].id = "dusk";
+            }
+            else if (h < 18) {
+                document.getElementsByTagName("body")[0].id = "day";
+            }
+            else if (h < 22) {
+                document.getElementsByTagName("body")[0].id = "dawn";
+            }
+            else {
+                document.getElementsByTagName("body")[0].id = "night";
+            }
+        });
         //]]>
         </script>
     </head>
 
-    <body id="day" class="f-default style2">
+    <body class="f-default style2">
         <!-- begin top part -->
         <div id="bg-top">
             <div id="bg-top-overlay"></div>
@@ -131,7 +151,13 @@
                                                             <div class="padding">
                                                                 <table class="blog" cellpadding="0" cellspacing="0">
                                                                     <tbody>
-                                                                        {{ content }}
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div id="stem">
+                                                                                    {{ content }}
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
                                                                         <tr>
                                                                             <td valign="top" align="center">
                                                                                 <br />
