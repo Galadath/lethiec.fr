@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr">
+    <head>
+        <base href="/" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="Nathalie, Le'Thiec, costumière, styliste, création, réalisation, mariage, mariée, costume'de'scène, robe," />
+        <meta name="description" content="Nathalie Le Thiec - costumière et styliste" />
+        <title>
+            Nathalie Le Thiec - costumière et styliste - {{ page.title }}
+            {% if page.column == 2 %}
+             - {{ page.column }}
+            {% endif %}
+        </title>
+        <script type="text/javascript" src="/media/system/js/mootools.js">
+</script>
+        <script type="text/javascript" src="/media/system/js/caption.js">
+</script>
+        <script type="text/javascript" src="/modules/mod_rokslideshow/tmpl/rokslideshow.js">
+</script>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/rokmoomenu.css" />
+        <link rel="stylesheet" type="text/css" href="/templates/system/css/system.css" />
+        <link rel="stylesheet" type="text/css" href="/templates/system/css/general.css" />
+        <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/template_css.css" />
+        <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/style2.css" />
+        <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/rokzoom/rokzoom.css" />
+        <link rel="stylesheet" type="text/css" href="/templates/rt_dimensions_j15/css/rokslidestrip.css" />
+        <style type="text/css">
+/*<![CDATA[*/
+        div.wrapper { margin: 0 auto; width: 990px;padding:0;}
+        td.secondcol { width: 0;}
+        td.thirdcol { width: 25%;}
+        .shadow-3 { width: 672px;}
+        /*]]>*/
+        </style>
+        <script type="text/javascript">
+//<![CDATA[
+        tempus="day"
+        //]]>
+        </script>
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/roktempus.js">
+</script>
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/rokzoom/rokzoom.js">
+</script>
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/rokmoomenu.js">
+</script>
+        <script type="text/javascript" src="/templates/rt_dimensions_j15/js/mootools.bgiframe.js">
+</script>
+        <script type="text/javascript">
+//<![CDATA[
+        window.addEvent('domready', function() {
+        new Rokmoomenu($E('ul.menu'), {
+            bgiframe: false,
+            delay: 500,
+            animate: {
+                props: ['opacity', 'width', 'height'],
+                opts: {
+                    duration:400,
+                    fps: 100,
+                    transition: Fx.Transitions.Expo.easeOut             }
+            }
+        });
+        });
+        //]]>
+        </script>
+        <script type="text/javascript">
+//<![CDATA[
+        window.addEvent('load', function() {
+            RokZoom.init({
+                imageDir: '/templates/rt_dimensions_j15/rokzoom/images/',
+                resizeFX: {
+                    duration: 700,
+                    transition: Fx.Transitions.Cubic.easeOut,
+                    wait: true
+                },
+                opacityFX: {
+                    duration: 500,
+                    wait: false 
+                }
+            });
+        });
+        //]]>
+        </script>
+    </head>
+    <body id="day" class="f-default style2">
+        <!-- begin top part -->
+        <div id="bg-top">
+            <div id="bg-top-overlay"></div>
+        </div><!-- end top part -->
+        <!-- start overall frame -->
+        <div id="overall-frame">
+            <!-- begin bottom part IE ONLY -->
+            <div id="bg-bottom-ie">
+                <div id="bg-bottom-overlay-ie"></div>
+            </div><!-- end bottom part ie -->
+            <!-- start bottom part OTHER BROWSERS -->
+            <div id="bg-bottom">
+                <div id="bg-bottom-overlay">
+                    <!-- begin wrapper -->
+                    <div class="wrapper">
+                        <div id="top-shadow">
+                            <div class="shadow-1"></div>
+                            <div class="shadow-2"></div>
+                            <div class="shadow-3"></div><!-- begin header -->
+                            <div id="header">
+                                <div id="logo-space">
+                                    <a href="/" class="nounder"><img src="/templates/rt_dimensions_j15/images/logo.png" style="border:0;" alt="" id="logo" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="iefix">
+                            <div id="horiz-menu" class="moomenu">
+                                {% include menu.textile %}
+                            </div>
+                        </div><!-- end header -->
+                        <!-- begin inset -->
+                        <div id="inset"></div><!-- end inset -->
+                        <!-- begin mainbody -->
+                        <div id="body-shadow-left">
+                            <div id="body-shadow-right">
+                                <div id="body">
+                                    <table class="mainbody" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr valign="top">
+                                                <td class="maincol">
+                                                    <div id="maincol">
+                                                        <div class="accent">
+                                                            <div class="accent-left"></div>
+                                                            <div class="accent-right"></div>
+                                                        </div>
+                                                        <div id="topmodules" class="spacer w99">
+                                                            <div class="block"></div>
+                                                        </div>
+                                                        <div id="component">
+                                                            <div class="padding">
+                                                                <table class="blog" cellpadding="0" cellspacing="0">
+                                                                    <tbody>
+                                                                        {{ content }}
+                                                                        <tr>
+                                                                            <td valign="top" align="center">
+                                                                                <br />
+                                                                                <br />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td valign="top" align="center"></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                {% if page.column == 2 %}
+                                                <td class="thirdcol">
+                                                    <div id="thirdcol">
+                                                        <div class="accent"><div class="accent-left"></div><div class="accent-right"></div></div>
+                                                        <div class="moduletable">
+                                                            <div id="slidewrap">
+                                                                <div id="slideshow" style="display: block; position: relative; width: 300px; "><div style="display: block; overflow-x: hidden; overflow-y: hidden; position: relative; width: 300px; height: 430px; "><a href="#" style="position: absolute; top: 0px; left: 0px; visibility: visible; zoom: 1; opacity: 1; width: 300px; height: 430px; display: block; cursor: default; z-index: 130; "><img src="http://nathalie.lethiec.fr/images/la-petite-sirene/sirene2.jpg" title="" alt="" style="display: block; position: absolute; z-index: 130; cursor: default; left: auto; top: auto; right: 0px; bottom: 0px; visibility: visible; zoom: 1; opacity: 1; height: 435px; width: 572px; "></a><a href="#" style="position: absolute; top: 0px; left: 0px; visibility: visible; zoom: 1; opacity: 1; width: 300px; height: 430px; display: block; cursor: default; z-index: 131; "><img src="http://nathalie.lethiec.fr/images/la-petite-sirene/sirene3.jpg" title="" alt="" style="display: block; position: absolute; z-index: 131; cursor: default; left: auto; top: auto; right: 0px; bottom: 0px; visibility: visible; zoom: 1; opacity: 0.372615; height: 664px; width: 448px; "></a></div></div>
+                                                                <div id="loadingDiv"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                {% endif %}
+                                            </tr>
+                                            <tr>
+                                                <td class="maincol bottom">
+                                                    <div class="accent">
+                                                        <div class="accent-left"></div>
+                                                        <div class="accent-right"></div>
+                                                    </div>
+                                                </td>
+                                                {% if page.column == 2 %}
+                                                <td class="thirdcol bottom">
+                                                    <div class="accent">
+                                                        <div class="accent-left"></div>
+                                                        <div class="accent-right"></div>
+                                                    </div>
+                                                </td>
+                                                {% endif %}
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- end mainbody -->
+                            <!-- begin bottom panel -->
+                            <div id="bottom-modules">
+                                <div class="padding"></div>
+                            </div>
+                            <div id="footer-bar">
+                                <div align="center">
+                                    <a href="http://www.rockettheme.com/" title="RocketTheme Joomla Template Club" class="nounder"><img src="/templates/rt_dimensions_j15/images/blank.gif" border="0" alt="RocketTheme Joomla Templates" id="rocket" /></a>
+                                </div>
+                            </div>
+                            <div id="footer-shadow">
+                                <div class="shadow-1"></div>
+                                <div class="shadow-2"></div>
+                                <div class="shadow-3"></div>
+                            </div><!--end body panel -->
+                        </div><!-- end wrapper -->
+                    </div>
+                </div><!-- end bottom part OTHER BROWSERS -->
+            </div><!-- end overall frame -->
+        </div>
+    </body>
+</html>

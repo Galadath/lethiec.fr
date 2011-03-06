@@ -1,0 +1,20 @@
+<ul class="menu">
+    <li><a href="/">Accueil</a></li>
+    <li><a href="/me-connaitre.html">Me connaître</a><ul>
+        <li><a href="/me-connaitre.html">Voir mon CV</a></li>
+        <li><a href="/cv.pdf">Télécharger mon CV</a></li>
+    </ul></li>
+    <li><a href="/ecole/projets.html">Projets d'école</a><ul>
+        <li><a href="/ecole/la-petite-sirene.html">La petite sirène</a></li>
+        <li><a href="/ecole/gabriel.html">Gabriel</a></li>
+        <li><a href="/ecole/dedanse.html">Dédanse</a></li>
+    </ul></li>
+    <li><a>Costumes et spectacles</a><ul>
+        <li><a href="/costumes/arthus-et-la-foret-magique.html">Arthus et la forêt magique</a></li>
+    </ul></li>
+    <!-- <li><a href="/vetement-et-accessoires.html">Vêtements et accessoires</a><ul> -->
+    <li><a>Vêtements et accessoires</a><ul>
+        <li><a href="/vetements/robes-de-soiree.html">Robes de soirée</a></li>
+    </ul></li>
+    <!-- <li><a href="/robes-de-mariees.html">Robes de mariées</a></li> -->
+</ul>
