@@ -35,12 +35,20 @@ window.addEvent('load', function() {
 });
 </script>
 
+La petite sirène
+================
 
-<td valign="top" colspan="2">
-    <div class="componentheading">
-        La petite sirène</div>
-        <p>Ce projet s'est inspiré du conte de Hans Christian Andersen, <span style="text-decoration: underline;">La petite sirène</span>. En travaillant en binôme, nous avons réalisé les costumes des trois personnages principaux : la petite sirène, la princesse qui séduit le prince, et le prince lui-même. Les maquettes ont été imaginées par Patrick Téroitin.</p>
-        <p>&nbsp;</p>
-        <p>J'ai travaillée seule sur l'interprétation et la réalisation du costume de la princesse comprenant un corps à baleine, une structure basse en corde à piano et un jupon ennobli, ainsi que sur la réalisation lingerie de la chemise du prince.</p>
-        <p>&nbsp;</p>
-        <p>Nous avons ensuite réalisé, en binôme avec Charline Veron, le costume du prince : pantalon à revers, et gilet ennobli.</p></td>
+Ce projet s'est inspiré du conte de Hans Christian Andersen, *La petite sirène*.
+En travaillant en binôme, nous avons réalisé les costumes des trois personnages principaux :
+ * la petite sirène
+ * la princesse qui séduit le prince
+ * et le prince lui-même
+
+Les maquettes ont été imaginées par Patrick Téroitin.
+
+J'ai travaillée seule sur l'interprétation et la réalisation du costume de la princesse comprenant
+un corps à baleine, une structure basse en corde à piano et un jupon ennobli, ainsi que sur
+la réalisation lingerie de la chemise du prince.
+
+Nous avons ensuite réalisé, en binôme avec Charline Veron, le costume du prince : pantalon à revers,
+et gilet ennobli.

@@ -74,6 +74,7 @@
         });
         
         window.addEvent("load", function() {
+            alert("test");
             var minutes = 1000*60;
             var hours   = minutes*60;
             var days    = hours*24;
@@ -93,7 +94,18 @@
             else {
                 document.getElementsByTagName("body")[0].id = "night";
             }
-        });
+            
+            var links = document.getElementsByTagName('a');
+
+            var regex = new RegExp('^' window.location.protocol + '//' + window.location.hostname);
+
+            for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+alert(links[i].href);
+               if ( ! links[i].href.match(regex)) {
+                   links[i].setAttribute('target', '_blank');
+               } 
+
+            }        });
         //]]>
         </script>
     </head>

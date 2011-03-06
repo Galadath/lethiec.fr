@@ -35,32 +35,15 @@ window.addEvent('load', function() {
     myshow.caps.p.setStyles({color: '#ccc', fontSize: '11px'});
 });
 </script>
-<tr>
-    <td valign="top">
-        <div>
-            <table class="contentpaneopen">
-                <tbody>
-                    <tr>
-                        <td valign="top" colspan="2">
-                            <p>
-                                Lors de ces deux années à préparer le diplôme des métiers d'arts costumier-réalisateur, j'ai participé à deux projets "fictifs" puisque non destinés à du spectacle vivant, mais simplement dédiés un bon apprentissage des techniques de réalisation.
-                            </p>
-                            <p>
-                                &nbsp;
-                            </p>
-                            <p>
-                                <a href="/ecole/la-petite-sirene.html" target="_self">La petite sirène</a>
-                            </p>
-                            <p>
-                                &nbsp;
-                            </p>
-                            <p>
-                                <a href="/ecole/gabriel.html">Gabriel</a>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table><span class="article_separator">&nbsp;</span>
-        </div>
-    </td>
-</tr>
+
+Projets d'école
+===============
+
+### DMA
+
+Lors de ces deux années à préparer le diplôme des métiers d'arts costumier-réalisateur,
+j'ai participé à deux projets "fictifs" puisque non destinés à du spectacle vivant,
+mais simplement dédiés un bon apprentissage des techniques de réalisation.
+
+ * [La petite sirène](/ecole/la-petite-sirene.html)
+ * [Gabriel](/ecole/gabriel.html)

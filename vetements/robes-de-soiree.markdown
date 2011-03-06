@@ -28,20 +28,9 @@ window.addEvent('load', function() {
     myshow.caps.p.setStyles({color: '#ccc', fontSize: '11px'});
 });
 </script>
-<tr>
-    <td valign="top">
-        <div>
-            <table class="contentpaneopen">
-                <tbody><tr>
-                    <td valign="top" colspan="2">
-                        <ul>
-                            <li>Robe de concert en soie bleue pour Mlle Vanessa Moubarak</li>
-                            <li>Robe de soirée en coton mélangé double face</li>
-                        </ul>
-                    </td>
-                </tr></tbody>
-            </table>
-            <span class="article_separator">&nbsp;</span>
-        </div>
-    </td>
-</tr>
+
+Robes de soirée
+===============
+
+ * Robe de concert en soie bleue pour Mlle Vanessa Moubarak
+ * Robe de soirée en coton mélangé double face

@@ -34,30 +34,14 @@ window.addEvent('load', function() {
     myshow.caps.p.setStyles({color: '#ccc', fontSize: '11px'});
 });
 </script>
-<tr>
-    <td valign="top">
-        <div>
-            <table class="contentpaneopen">
-                <tbody><tr>
-                    <td class="contentheading" width="100%">
-                        Artus et la forêt magique		
-                    </td>
-                </tr></tbody>
-            </table>
-            <table class="contentpaneopen">
-                <tbody><tr>
-                    <td valign="top" colspan="2">
-                        <p>Création de <a href="http://www.ecla-theatre.com/" target="_blank">l'Ecla Théâtre</a> de 2007</p>
-                        <p>Mise en scène de Camille Simon</p>
-                        <p>Sur un texte de Janine Borde et Christian Grau-Stef</p>
-                        <p>Création de décors et costumes de Sophie Taïs</p>
-                        <p>Assistante décoratrice : Céline Géroult</p>
-                        <p>Assistante costumière : Nathalie Le Thiec</p>
-                        <p>Photographies : Sylvain Ageorges</p>
-                    </td>
-                </tr></tbody>
-            </table>
-            <span class="article_separator">&nbsp;</span>
-        </div>
-    </td>
-</tr>
+
+Artus et la forêt magique
+=========================
+
+ * Création de [l'Ecla Théâtre](http://www.ecla-theatre.com/) de 2007.
+ * Mise en scène de Camille Simon
+ * Sur un texte de Janine Borde et Christian Grau-Stef
+ * Création de décors et costumes de Sophie Taïs
+  * Assistante décoratrice : Céline Géroult
+  * Assistante costumière : Nathalie Le Thiec
+ * Photographies de Sylvain Ageorges
