@@ -4,17 +4,34 @@
         <li><a href="/me-connaitre.html">Voir mon CV</a></li>
         <li><a href="/cv_nathalie_le_thiec.pdf">Télécharger mon CV</a></li>
     </ul></li>
-    <li><a href="/ecole/projets.html">Projets d'école</a><ul>
-        <li><a href="/ecole/la-petite-sirene.html">La petite sirène</a></li>
-        <li><a href="/ecole/gabriel.html">Gabriel</a></li>
-        <li><a href="/ecole/dedanse.html">Dédanse</a></li>
+    <li><a>Cinéma, clip et séries</a><ul>
+		<li><a href="/cinema/lessouverains.html">Les Souverains</a></li>
+		<li><a href="/cinema/lastnight.html">Last Night</a></li>
+		<li><a href="/cinema/jeunehommeaubord.html">Jeune homme ...</a></li>
+		<li><a href="/cinema/judasandmarie.html">Judas and Marie</a></li>
+		<li><a href="/cinema/nase.html">N.A.S.E</a></li>
     </ul></li>
-    <li><a>Costumes et spectacles</a><ul>
-        <li><a href="/costumes/artus-et-la-foret-magique.html">Artus et la forêt magique</a></li>
+    <li><a>Spectacles</a><ul>
+        <li><a href="/spectacles/artus-et-la-foret-magique.html">Artus et la forêt magique</a></li>
+        <li><a href="/spectacles/scarabande.html">Scarabande</a></li>
+        <li><a href="/spectacles/la-petite-sirene.html">La petite sirène</a></li>
+        <li><a href="/spectacles/gabriel.html">Gabriel</a></li>
+        <li><a href="/spectacles/dedanse.html">Dédanse</a></li>
+    <!-- <li><a href="/spectacles/ennoblissement-gabriel.html">Ennoblissement Gabriel</a></li> -->
+    <!-- <li><a href="/spectacles/elements.html">Eau et feu</a></li> -->
+    <!-- <li><a href="/spectacles/cabaret.html">Cabaret</a></li> -->
+    <!-- <li><a href="/spectacles/atoutfil.html">Atoutfil</a></li> -->
     </ul></li>
     <!-- <li><a href="/vetement-et-accessoires.html">Vêtements et accessoires</a><ul> -->
     <li><a>Vêtements et accessoires</a><ul>
-        <li><a href="/vetements/robes-de-soiree.html">Robes de soirée</a></li>
+		<li><a href="/vetements/robes-de-soiree/robe-soie-bleue.html">Robe en soie bleue</a></li>
+		<li><a href="/vetements/robes-de-soiree/robe-coton-double-face.html">Robe en coton double-face</a></li>
+        <li><a href="/vetements/bustiers.html">Bustiers et corsets</a></li>
+        <li><a href="/vetements/fraise.html">Fraise</a></li>
     </ul></li>
-    <!-- <li><a href="/robes-de-mariees.html">Robes de mariées</a></li> -->
+    <li><a href="/robes-de-mariees/robes-de-mariees.html">Robes de mariées</a></li>
+    </ul></li>
+    <!-- <li><a>Robes de soirée</a></ul>
+		<li><a href="/robes-de-soiree/robe-soie-bleue.html">Robe en soie bleue</a></li>
+		<li><a href="/robes-de-soiree/robe-coton-double-face.html">Robe en coton double-face</a></li> -->
 </ul>

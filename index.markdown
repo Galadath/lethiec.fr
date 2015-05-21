@@ -9,7 +9,7 @@ window.addEvent('load', function() {
     imgs.push({file: 'amelioration.jpg', title: '', desc: '', url: '#'});
     imgs.push({file: 'elda4.jpg', title: '', desc: '', url: '#'});
     imgs.push({file: 'gabriel3.jpg', title: '', desc: '', url: '#'});
-    imgs.push({file: 'gilet3.jpg', title: '', desc: '', url: '#'});
+    imgs.push({file: 'gilet2.jpg', title: '', desc: '', url: '#'});
     imgs.push({file: 'redingote3.jpg', title: '', desc: '', url: '#'});
     imgs.push({file: 'sirene1.jpg', title: '', desc: '', url: '#'});
     var myshow = new Slideshow('slideshow', { 
@@ -34,12 +34,10 @@ window.addEvent('load', function() {
 });
 </script>
 
-Bienvenue
-=========
-Ce site est en cours d'aménagement, de nouvelles rubriques seront ajoutées très bientôt.
 
- * [Me connaître](/me-connaitre.html)
- * [Projets d'école](/ecole/projets.html)
- * [Artus et la forêt magique](/costumes/artus-et-la-foret-magique.html)
- * [Dédanse](/ecole/dedanse.html)
- * [Robes de soirée](/vetements/robes-de-soiree.html)
+##Bienvenue sur le site de Nathalie Le Thiec,##
+
+##costumière et styliste.##
+
+
+Vous pouvez dès à présent [découvrir mon parcours](/me-connaitre.html) ou bien parcourir le site pour découvir mes créations et réalisations.

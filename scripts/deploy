@@ -1,3 +1,6 @@
 #!/bin/bash
+
+cd "`dirname "$0"`/../"
+
 rsync -avz --delete --delete-excluded _site/ stem@server.noplay.net:sites/lethiec.fr/nathalie/htdocs/
 ssh stem@server.noplay.net 'find /home/stem/sites/lethiec.fr/nathalie/htdocs/ -type d -exec chmod u+rwx {} +; find /home/stem/sites/lethiec.fr/nathalie/htdocs/ -type d -exec chmod go+rx {} +; find /home/stem/sites/lethiec.fr/nathalie/htdocs/ -name 'tmp' -prune -o  -type f -exec chmod u+rw {} +; find /home/stem/sites/lethiec.fr/nathalie/htdocs/ -name 'tmp' -prune -o  -type f -exec chmod go+r {} +'
